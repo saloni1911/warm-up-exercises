@@ -1,0 +1,32 @@
+#clock {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin: 20px auto 0 auto;
+  background: url("https://s-media-cache-ak0.pinimg.com/736x/4e/8f/62/4e8f6206f82e5cdd2d6c339d68fb5818--clock-face-printable-blank-clock-template.jpg");
+  list-style: none;
+  background-repeat: no-repeat;
+}
+
+#sec, #min, #hour {
+  position: absolute;
+  width: 30px;
+  height: 600px;
+  top: 0px;
+  left: 285px;
+}
+
+#sec {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA51BMVEX///+jCAigAAD+/PyvCQr76uu/AACtAADeJzCwAAC1AAC1GBv++Pj88vP++vv87u/ywsXwtbf64eHdHyCeEBKYERTmam2/DxDqj5HdMjipAADQGh/dMDP00tTzzc/RAADETlDSIyvJHCGuPjzWjY7jbnLw4uCQRELTwsDp0M+uNzXkWV3VEhWYISDeysmbBAmsFxnDHSHIFRfLLzDSOTvcn57cJSffr7HYpKXFZWXHXF3kt7jjv8DOl5jPgoPKdXfmm57GODu+WVWcRUPuqazohIjiR0rnTlHlenvZAADqh4zvnaDmbW9Qcf17AAACWklEQVR4nO3bC1baQACFYd7IGxIgpRDAtNBq0kr6iNba2lqqqN3/ehrZw5w5c/N/K7j/mWgg0VIJAAAAAAAAAAAAAKzp2R5g2uDQtT3BMO9B/RC9e/XCkELnUei+8H5ge4Jh4axue4Jh4YJC1+kXLuULC3CGJxS6jkL3Uei+IYXOo9B9Qz+0PcGwApyhfmHi2Z5gmH7hSP4qHS3UnyaOfPmrVL5wL1/IGbpvn8kXnqgXPhegUP0zjX7hK/1C+ff4BSiU/27xJP9z+Ff+DelB/io9zCh0nXxhdVOAQvE7fn+qXxj3bW8wqx+rF3bjWPz/LfoPU/HC3oxC1+WF4r9pBot/4oX1AhRuqrY3mFU/VS/0so34VeplB/kzlC+cqxeGvnxhQqHrlsnB9gTDlivxQm+aLPbKjxOfsyTzk3hpe4cxT4/+PJf4qonDx3k0PybGtqeY0d0kUZQ3RtHpSvNvaupf0k4aZVmapivNy9T7HHU6nejTPC/UPMPeOujsxp15uksD0XcXX5u78XgyGe/ab21PMaT7pnwsbK5Fj7BU+vihkhdWzs9sDzHn/buLycWfre0ZJg3OK3fiT/XvWj9tTzDsui1eWP3duLa9wajqr0bQ2NteYZIXNIKgIXs3zJ0FgXphowCFNe3CZbtWq7WVb/k3rWIUKr9A/H4sVH6s/1LYWqsXNq+VCy+bRSh8/c32CpPywrJ24dVL4a3tFSZdVcoFKKxIf8kvSOEP2ytM0i+8qeQuba8wqrfdbpU/0gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXPEfMd81o1orxRwAAAAASUVORK5CYII=");
+  z-index: 3;
+}
+   
+#min {
+  background: url("https://www.kiefer.com/filebin/product_images/Zoom_600x600/210414-black-battery-minute-hand-for-electric-clock.jpg");
+  z-index: 2;
+}
+   
+#hour {
+  background: url("http://exchangedownloads.smarttech.com/public/content/fd/fdc020fb-1bca-4641-bf2b-e9b037a041f8/previews/medium/0001.png");
+  z-index: 1;
+}
