@@ -31,12 +31,11 @@ var distribution = {};
 
 var splitTheBill = function(group) {
 
-	Object.keys(group).forEach(function(key) {
-		total += group[key];
+	Object.values(group).forEach(function(value) {
+		total += value;
 		average = total/numOfKeys;
 	});
 	Object.keys(group).forEach(function(key) {
-		console.log(key);
 		distribution[key] = group[key]-average
 	});
 	return distribution;
